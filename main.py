@@ -1,9 +1,10 @@
 import telebot
+import os
 import datetime
 
-API_KEY = 'API_KEY'
+API_KEY = os.environ.get('API_KEY')
 bot = telebot.TeleBot(API_KEY)
-ADMIN_ID = '5719412648'
+ADMIN_ID = os.environ.get('ADMIN_ID')
 
 
 def save_user_id(chat_id):
@@ -48,4 +49,5 @@ def respond(message):
     bot.send_message(chat_id=message.chat.id, text=response)
 
 
-bot.polling()
+if __name__ == '__main__':
+    bot.polling()
