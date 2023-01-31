@@ -7,7 +7,7 @@ if not API_KEY:
     raise Exception('Bot token is not defined')
 
 bot = telebot.TeleBot(API_KEY)
-ADMIN_ID = os.environ.get('ADMIN_ID', '5719412648')
+ADMIN_ID = os.environ.get('ADMIN_ID', '500386715')
 
 
 def save_user_id(chat_id):
