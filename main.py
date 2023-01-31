@@ -1,11 +1,3 @@
-{
-  "buildpacks": [
-    {
-      "url": "<buildpack-url>"
-    }
-  ]
-}
-
 import telebot
 import datetime
 
