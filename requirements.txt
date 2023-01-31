@@ -1,4 +1,2 @@
-pyTelegramBotAPI    4.9.0
 python-telegram-bot 20.0
 telebot             0.0.4
-
