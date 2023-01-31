@@ -1,7 +1,7 @@
 import telebot
 import datetime
 
-API_KEY = '5908435784:AAE2XX_PD5mnKHQwv6ReHmO68TY6ebR9U24'
+API_KEY = 'API_KEY'
 bot = telebot.TeleBot(API_KEY)
 ADMIN_ID = '5719412648'
 
