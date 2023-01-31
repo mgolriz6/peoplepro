@@ -37,7 +37,6 @@ def respond(message):
         response = f'ID: {user_chat_id}\n'
         response += f'First: {user_first_name}\n'
         response += f'Time: {current_time}\n'
-        response += f'username: {username}\n'
     else:
         response = f'ID: {user_chat_id}\n'
         response += f'First: {user_first_name}\n'
