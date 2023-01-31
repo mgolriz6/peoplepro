@@ -1,2 +1,2 @@
 # peoplepro
-PeopleProBot is a Telegram bot that displays user info when you send a message to it
+PeopleProBot is a Telegram bot that displays user info and current time when you send a message to it
