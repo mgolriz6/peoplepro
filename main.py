@@ -1,9 +1,9 @@
 import telebot
 import datetime
 
-API_KEY = 'your bot token'
+API_KEY = '5908435784:AAE2XX_PD5mnKHQwv6ReHmO68TY6ebR9U24'
 bot = telebot.TeleBot(API_KEY)
-ADMIN_ID = '00000' # admin chat id
+ADMIN_ID = '5719412648'
 
 
 def save_user_id(chat_id):
